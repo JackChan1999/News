@@ -22,7 +22,26 @@ import com.tiger.quicknews.wedget.slideingactivity.SlidingActivity;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-
+/**
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：     http://blog.csdn.net/axi295309066
+ * 微博：     AndroidDeveloper
+ * <p>
+ * Project_Name：QuickNews
+ * Package_Name：com.tiger.quicknews
+ * Version：1.0
+ * time：2016/2/15 16:13
+ * des ：${TODO}
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 public class BaseActivity extends SlidingActivity {
 
     /** 手势监听 */

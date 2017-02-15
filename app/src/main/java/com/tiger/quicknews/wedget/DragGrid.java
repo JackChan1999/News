@@ -23,7 +23,26 @@ import android.widget.TextView;
 import com.tiger.quicknews.R;
 import com.tiger.quicknews.adapter.DragAdapter;
 import com.tiger.quicknews.utils.DataTools;
-
+/**
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：     http://blog.csdn.net/axi295309066
+ * 微博：     AndroidDeveloper
+ * <p>
+ * Project_Name：QuickNews
+ * Package_Name：com.tiger.quicknews
+ * Version：1.0
+ * time：2016/2/15 16:13
+ * des ：${TODO}
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 public class DragGrid extends GridView {
     /** 点击时候的X位置 */
     public int downX;

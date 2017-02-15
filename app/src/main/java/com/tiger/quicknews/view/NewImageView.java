@@ -14,19 +14,35 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingProgressListener;
-import com.nostra13.universalimageloader.utils.ImageSizeUtils;
-import com.tiger.quicknews.App;
 import com.tiger.quicknews.R;
 import com.tiger.quicknews.utils.Options;
 import com.tiger.quicknews.wedget.ProgressButton;
-import com.tiger.quicknews.wedget.photoview.PhotoView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EViewGroup;
 import org.androidannotations.annotations.ViewById;
 
 import java.util.List;
-
+/**
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：     http://blog.csdn.net/axi295309066
+ * 微博：     AndroidDeveloper
+ * <p>
+ * Project_Name：QuickNews
+ * Package_Name：com.tiger.quicknews
+ * Version：1.0
+ * time：2016/2/15 16:13
+ * des ：${TODO}
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 @EViewGroup(R.layout.item_image)
 public class NewImageView extends RelativeLayout implements ImageLoadingListener,
         ImageLoadingProgressListener {
